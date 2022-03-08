@@ -13,7 +13,7 @@
 - Create new `tsconfig.json` file or add to `extends` section of existing config.
   Example config using the package:
 
-  ```json
+  ```jsonc
   {
     "extends": "@combeenation/ts-config",
     "compilerOptions": {
