@@ -1,0 +1,25 @@
+{
+  "name": "@combeenation/ts-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json",
+    "package.json",
+    "README.md"
+  ],
+  "prettier": "@combeenation/prettier-config",
+  "scripts": {
+    "format": "prettier --write .",
+    "pub-final": "npm publish",
+    "pub-alpha": "npm publish --tag alpha",
+    "pub-beta": "npm publish --tag beta",
+    "pub-rc": "npm publish --tag rc"
+  },
+  "author": "",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "@combeenation/prettier-config": "^0.0.1-rc1",
+    "prettier": "^2.5.1"
+  }
+}
