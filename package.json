@@ -1,6 +1,6 @@
 {
   "name": "@combeenation/ts-config",
-  "version": "0.0.1-rc1",
+  "version": "0.0.1",
   "description": "",
   "main": "tsconfig.json",
   "files": [
