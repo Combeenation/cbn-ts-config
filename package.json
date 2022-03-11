@@ -1,6 +1,6 @@
 {
   "name": "@combeenation/ts-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "tsconfig.json",
   "files": [
@@ -26,7 +26,7 @@
   "author": "",
   "license": "Apache 2.0",
   "devDependencies": {
-    "@combeenation/prettier-config": "^0.0.1-rc1",
+    "@combeenation/prettier-config": "^0.0.1",
     "prettier": "^2.5.1"
   }
 }
