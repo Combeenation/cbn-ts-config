@@ -26,6 +26,6 @@
   },
   "prettier": "@combeenation/prettier-config",
   "devDependencies": {
-    "@combeenation/prettier-config": "^1.0.0-rc1"
+    "@combeenation/prettier-config": "^1.0.0"
   }
 }
