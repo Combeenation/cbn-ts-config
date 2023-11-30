@@ -3,7 +3,7 @@
     "target": "ES6", // Specify ECMAScript target version
     "lib": ["ES2017", "DOM"], // List of library files to be included in the compilation
     "allowJs": true, // Allow JavaScript files to be compiled
-    "skipLibCheck": true, // Skip type checking of all declaration files
+    "skipLibCheck": false, // Also check all declaration files `*.d.ts` during compilation
     "esModuleInterop": true, // Fixes certain issues with namespace imports (import * as fs from "fs") in compiled code
     "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
     "strict": true, // Enable all strict type checking options

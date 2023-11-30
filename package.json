@@ -1,32 +1,31 @@
 {
   "name": "@combeenation/ts-config",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "",
+  "bugs": {
+    "url": "https://github.com/Combeenation/cbn-ts-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Combeenation/cbn-ts-config"
+  },
+  "license": "Apache 2.0",
+  "author": "",
   "main": "tsconfig.json",
   "files": [
     "tsconfig.json",
     "package.json",
     "README.md"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Combeenation/cbn-ts-config"
-  },
-  "bugs": {
-    "url": "https://github.com/Combeenation/cbn-ts-config/issues"
-  },
-  "prettier": "@combeenation/prettier-config",
   "scripts": {
     "format": "prettier --write .",
-    "pub-final": "npm publish",
     "pub-alpha": "npm publish --tag alpha",
     "pub-beta": "npm publish --tag beta",
+    "pub-final": "npm publish",
     "pub-rc": "npm publish --tag rc"
   },
-  "author": "",
-  "license": "Apache 2.0",
+  "prettier": "@combeenation/prettier-config",
   "devDependencies": {
-    "@combeenation/prettier-config": "^0.0.1",
-    "prettier": "^2.5.1"
+    "@combeenation/prettier-config": "^1.0.0"
   }
 }
